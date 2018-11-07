@@ -40,15 +40,15 @@ checks:
 # and https://docs.codeclimate.com/docs/list-of-engines
 plugins:
   brakeman:
-    enabled: true
+    enabled: false
   bundler-audit:
-    enabled: true
+    enabled: false
   csslint:
-    enabled: true
+    enabled: false
   duplication:
     enabled: true
   eslint:
-    enabled: true
+    enabled: false
     config:
       config: .eslintrc.json
       extensions:
@@ -58,16 +58,16 @@ plugins:
   fixme:
     enabled: true
   markdownlint:
-    enabled: true
+    enabled: false
   nodesecurity:
-    enabled: true
+    enabled: false
   rubocop:
-    enabled: true
+    enabled: false
   reek:
-    enabled: true
+    enabled: false
     config:
       config: config.reek
   scss-lint:
-    enabled: true
+    enabled: false
   shellcheck:
     enabled: true
