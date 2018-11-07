@@ -24,6 +24,24 @@ curl -sSL https://raw.githubusercontent.com/kabisa/code-style/master/install.sh 
 
 The installer will try to detect which files should be installed.
 
+Example output:
+
+    Copying config for Codeclimate
+      ✔ Copied .codeclimate.yml
+    Detected Gemfile.
+      ✔ Copied .rubocop.yml
+      ✔ Copied config.reek
+      ✔ Enabled 'bundler-audit' plugin.
+      ✔ Enabled 'rubocop' plugin.
+      ✔ Enabled 'reek' plugin.
+    Detected markdown files.
+      ✔ Copied .mdlrc
+      ✔ Enabled 'markdownlint' plugin.
+    Detected CSS files.
+      ✔ Enabled 'csslint' plugin.
+    Detected SASS/SCSS files.
+      ✔ Enabled 'scss-lint' plugin.
+
 ## Install CodeClimate CLI
 
 ### OSX
