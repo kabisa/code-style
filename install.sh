@@ -67,7 +67,7 @@ fi
 
 sass_files=(`find . -type f \( -name "*.sass" -or -name "*.scss" \) | grep -v /node_modules/`)
 
-if [ ${#css_files[@]} -gt 0 ]; then
+if [ ${#sass_files[@]} -gt 0 ]; then
   echo "Detected SASS/SCSS files."
   enable_plugin "scss-lint"
 fi
